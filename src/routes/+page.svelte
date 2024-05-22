@@ -1,10 +1,9 @@
 <script>
 	import GlowInfoBox from '../components/+GlowInfoBox.svelte';
-	import WhyBoxes from '../components/+WhyBoxes.svelte';
 
-	const randomBox = () => {
-		return '<WhyBoxes size="2.1" t="" l="" rot="-23.7" color="bg-red-300" txt="What?" />';
-	};
+	// const randomBox = () => {
+	// 	return '<WhyBoxes size="2.1" t="" l="" rot="-23.7" color="bg-red-300" txt="What?" />';
+	// };
 </script>
 
 <section
@@ -14,7 +13,6 @@
 	<h1 class="text-center text-8xl font-bold leading-[1.2]">
 		Everything You Need<br /><span class=" text-primary">Within Campus!</span>
 	</h1>
-	<!-- <img src="/src/lib/assets/heroBlack.svg" alt="" /> -->
 </section>
 
 <section class="text-dark flex justify-center content-center mt-[30vh]">
@@ -31,21 +29,6 @@
 				<button class="mt-[4vw]">Get Started Now!</button>
 			</div>
 		</div>
-		<WhyBoxes size="2.1" t="" l="" rot="-23.7" color="bg-red-300" txt="What?" />
-		<WhyBoxes size="1.21" b="" r="" rot="78" color="bg-orange-300" txt="What?" />
-		<WhyBoxes size="1.23" t="" r="" rot="-17.5" color="bg-yellow-300" txt="What?" />
-		<WhyBoxes size="1.5" b="" l="" rot="55" color="bg-lime-300" txt="Why?" />
-		<WhyBoxes size="2.7" t="" l="" rot="-82" color="bg-green-300" txt="Why?" />
-		<WhyBoxes size="2.1" b="" l="" rot="21" color="bg-teal-300" txt="Why?" />
-		<WhyBoxes size="2.05" b="" r="" rot="38" color="bg-rose-300" txt="How?" />
-		<WhyBoxes size="2.7" t="" b="" r="" l="" rot="-67" color="bg-purple-300" txt="Where?" />
-		<WhyBoxes size="2.4" t="" b="" r="" l="" rot="32" color="bg-indigo-300" txt="Who?" />
-		<WhyBoxes size="1.61" t="" b="" r="" l="" rot="-48" color="bg-blue-300" txt="What?" />
-		<WhyBoxes size="2.73" t="" b="" r="" l="" rot="15" color="bg-cyan-300" txt="Why?" />
-		<WhyBoxes size="1.5" t="" b="" r="" l="" rot="-51" color="bg-violet-300" txt="How?" />
-		<WhyBoxes size="1.22" t="" b="" r="" l="" rot="64" color="bg-emerald-300" txt="Where?" />
-		<WhyBoxes size="2.2" t="" b="" r="" l="" rot="-39" color="bg-amber-300" txt="Who?" />
-		{randomBox}
 	</div>
 </section>
 
