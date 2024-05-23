@@ -1,5 +1,5 @@
 <script>
-	export let img = '/static/assets/placeholder/1.jpg';
+	export let img = '/assets/placeholder/1.jpg';
 	export let name = 'Product Name';
 	export let price = 'Price';
 	export let otherGuy = 'Seller';

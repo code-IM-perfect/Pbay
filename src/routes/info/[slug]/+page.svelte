@@ -29,7 +29,7 @@
 	.img {
 		height: 55vh;
 		max-width: 65vh;
-		background-image: url(/static/assets/placeholder/1.jpg);
+		background-image: url(/assets/placeholder/1.jpg);
 	}
 	.price p {
 		align-self: flex-end;
