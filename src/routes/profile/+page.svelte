@@ -102,7 +102,7 @@
 	}
 
 	.userInfo {
-		background-image: url(/src/lib/assets/sprinkle.svg);
+		background-image: url(/static/assets/sprinkle.svg);
 	}
 	.infoPannel {
 		box-shadow: 0 0px 9px 0px rgba(100, 100, 100, 0.2);

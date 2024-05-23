@@ -8,7 +8,7 @@
 
 <section
 	class="flex justify-center items-center text-white h-[80vh] bg-no-repeat bg-center"
-	style="background-image: url(/src/lib/assets/heroBackk.svg);"
+	style="background-image: url(/static/assets/heroBackk.svg);"
 >
 	<h1 class="text-center text-8xl font-bold leading-[1.2]">
 		Everything You Need<br /><span class=" text-primary">Within Campus!</span>
@@ -17,7 +17,7 @@
 
 <section
 	class="text-white flex justify-center content-center mt-[30vh]"
-	style="background-image: url(/src/lib/assets/sprinkle.svg);"
+	style="background-image: url(/static/assets/sprinkle.svg);"
 >
 	<div class="w-full mx-[20vw] my-[20vh] min-h-[50vh]">
 		<div class="glassInfobox rounded-2xl h-full grid place-content-center">
