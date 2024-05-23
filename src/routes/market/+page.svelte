@@ -18,5 +18,6 @@
 	.prodContainer {
 		grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
 		margin: 10rem clamp(5rem, 10rem, 50vw);
+		grid-auto-rows: 1fr;
 	}
 </style>

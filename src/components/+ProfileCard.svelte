@@ -2,7 +2,7 @@
 	export let img = '/src/lib/assets/placeholder/1.jpg';
 	export let name = 'Product Name';
 	export let price = 'Price';
-	export let seller = 'Seller';
+	export let otherGuy = 'Seller';
 	export let time = 'Time';
 
 	// let glowBlur = 12;
@@ -21,7 +21,7 @@
 	<h4 class="text-xl font-medium mx-6 my-3">{name}</h4>
 	<h3 class="text-4xl font-bold mx-6">₹{price}</h3>
 	<div class="lastRow flex justify-between mx-6 my-6">
-		<p>{seller}</p>
+		<p>{otherGuy}</p>
 		<p class="justify-self-end">{time}</p>
 	</div>
 </a>
@@ -38,13 +38,13 @@
 		overflow: hidden;
 	}
 
+	.cardContainer .image {
+		transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	}
+
 	.cardContainer:hover {
 		box-shadow: 0px 0px 40px 15px rgba(255, 255, 255, 0.5);
 		transform: scale(1.1);
-	}
-
-	.cardContainer .image {
-		transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	}
 
 	.cardContainer:hover .image {
